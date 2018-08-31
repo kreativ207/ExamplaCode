@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>тестовое задание</title>
+</head>
+<body>
+
+<form>
+    <input type="text" name="customer" id="customerNameOrId" placeholder="id клиента или название клиента">
+    <input type="checkbox" name="work" id="work" checked>
+    <label for="work">Work</label>
+    <input type="checkbox" name="connecting" id="connecting" checked>
+    <label for="connecting">Connecting</label>
+    <input type="checkbox" name="disconnected" id="disconnected" checked>
+    <label for="disconnected">Disconnected</label>
+    <button id="formContract">Отправить</button>
+</form>
+<br>
+
+<p id="error" hidden>Договора для клиента не найдены</p>
+<div id="contractsTable"></div>
+
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>
